@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        "card-shadow": "10 25px 30px -5px rgba(0, 0, 0, 0.3)",
+      },
       colors: {
         "modal-fallback": "rgba(0,0,0,0.15)",
         "color-border": "#888",
