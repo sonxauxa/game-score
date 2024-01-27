@@ -5,13 +5,13 @@ import ListGame from "src/components/Games/ListGame";
 
 const Dashboard = () => {
   return (
-    <div>
-      dashboard
-      <ListGame />
+    <div className={"h-full flex flex-col"}>
       <div>
+        dashboard
         <AppLogin />
         <AppRegister />
       </div>
+      <ListGame />
     </div>
   );
 };

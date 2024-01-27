@@ -3,12 +3,14 @@ import GameCard from "src/components/Games/GameCard";
 
 const ListGame = () => {
   return (
-    <div className={"container mx-auto h-screen"}>
+    <div className={"container mx-auto h-full"}>
       <div className={"flex justify-center flex-col h-full"}>
         <div className={"flex align-middle gap-12 justify-center flex-wrap"}>
-          {[1, 2, 34, 5, 6].map((item) => {
-            return <GameCard item={item} />;
-          })}
+          {["Nhất, nhì, ba, bét", "Nhất ăn tất", "Cộng tay", "xì dách 21"].map(
+            (item) => {
+              return <GameCard item={item} />;
+            },
+          )}
         </div>
       </div>
     </div>
