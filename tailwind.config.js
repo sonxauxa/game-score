@@ -7,6 +7,7 @@ module.exports = {
         "card-shadow": "10 25px 30px -5px rgba(0, 0, 0, 0.3)",
       },
       colors: {
+        "card-shadow-color": "rgba(0, 0, 0, 0.3)",
         "modal-fallback": "rgba(0,0,0,0.15)",
         "color-border": "#888",
         "modal-shadow": "rgba(0,0,0,0.19)",
