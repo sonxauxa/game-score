@@ -18,7 +18,7 @@ const GameView = () => {
 
   return (
     <div className={"container m-auto h-full overflow-hidden"}>
-      <div className={"absolute right-3 top-4"}>
+      <div className={"absolute right-3 top-3"}>
         <PlayerGroup />
       </div>
       <div className={"grid grid-cols-1 h-full"}>
